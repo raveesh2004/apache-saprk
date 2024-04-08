@@ -1,8 +1,8 @@
-<h1>Spark RDD </h1>
+<h1><b>Spark RDD</b> </h1>
 Spark RDD Exploration and Sales Data Analysis
 This repository contains an exploration of Resilient Distributed Datasets (RDDs) in Apache Spark and a PySpark program that performs data cleaning and analysis on a sales dataset.
 
-Task 1: Explore RDD in Spark
+<h1><b>Task 1: Explore RDD in Spark</b></h1>
 In this task, we delve into the concept of RDDs in Apache Spark. RDDs are the fundamental data structures in Spark and provide a fault-tolerant, immutable, and partitioned collection of records that can be operated on in parallel across multiple nodes in a cluster.
 
 We explore the following key aspects of RDDs:
@@ -15,7 +15,7 @@ Lazy Evaluation: RDDs follow a lazy evaluation model, where transformations are 
 Transformations and Actions: RDDs support various transformations (e.g., map, filter, flatMap) and actions (e.g., count, collect, reduce) for data manipulation and computation.
 We also discuss the benefits of using PySpark, which provides a Python API for interacting with Spark and enables Python programmers to leverage Spark's functionalities within their Python code.
 
-Task 2: Sales Data Analysis with PySpark
+<h1><b>Task 2: Sales Data Analysis with PySpark</b></h1>
 In this task, we develop a PySpark program that reads a CSV file containing sales data, performs data cleaning, and calculates the total sales amount for each product. The program follows these steps:
 
 Read the sales data from a CSV file using PySpark.
@@ -24,10 +24,10 @@ Calculate the total sales amount for each product using transformations and acti
 Output the results to a new CSV file.
 The program demonstrates the use of PySpark's DataFrame API for data manipulation and aggregation. It showcases the power of Spark in processing large datasets efficiently and performing data analysis tasks.
 
-Dataset
+<h1><b>Dataset</b></h1>
 The sales dataset used in this project is provided in the repository. It contains information about sales transactions, including product details, quantities, and prices.
 
-Requirements
+<h1><b>Requirements</b></h1>
 To run the PySpark program, you need to have the following installed:
 
 Python (version 3.x)
